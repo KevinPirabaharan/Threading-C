@@ -1,0 +1,18 @@
+Kevin Pirabaharan			0946212
+CIS 3110				A3
+
+// REPORT //
+
+The main functionality of the dine program is to solve the dining philosophers problem.
+The way this assignment works is it uses threads to carry out every action of the philosophers
+(in this case eating or thinking) we use semaphores to lock and fork so that there is no chance
+for a lock out. It takes in user input through command line arguments to tailor the progran to work
+with specified values.
+
+The holes program emulates memory allocation by taking in process and trying to allocate them to
+a memory of 128 mbs. Using different methods to fit processes in. I used linked lists as a queue to
+hold the processes. After that I store them in an array which represents the memory. Using first fit
+I allocate the ram. And using linked lists commands, I can manipulate the queue to add processes
+to the back when they are replaced in memory until the assignment is done.
+
+
