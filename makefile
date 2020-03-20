@@ -8,4 +8,3 @@ holes: src/holes.c
 
 clean:
 	rm bin/*
-	rm _output/*
